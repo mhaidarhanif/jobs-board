@@ -36,3 +36,11 @@ export async function deleteJob(id: number) {
     method: "DELETE",
   });
 }
+
+// Search
+export async function searchJobs(keyword: string) {
+  const response = await fetch(
+    `${process.env.API_URL}/jobs?title_like=${keyword}`
+  );
+  return (await response.json()) as Job[];
+}

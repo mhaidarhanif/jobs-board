@@ -35,7 +35,7 @@ export default function RootLayout({
       >
         <NavBar />
 
-        {children}
+        <main className="px-4 pb-20">{children}</main>
       </body>
     </html>
   );
@@ -73,7 +73,7 @@ function NavBar() {
         <form method="get" action="/search">
           <div className="flex gap-2">
             <Input name="keyword" type="search" placeholder="Search jobs..." />
-            <Button>
+            <Button type="submit">
               <SearchIcon />
               Search
             </Button>

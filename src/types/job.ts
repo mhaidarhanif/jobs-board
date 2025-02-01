@@ -4,6 +4,16 @@ export type Job = {
   title: string;
   company: string;
   location: string;
+
+  level?: string;
+  salaryMin?: number;
+  salaryMax?: number;
+  experienceMin?: number;
+  experienceMax?: number;
+  jobType?: string;
+  workplaceType?: string;
+  description?: string;
+  benefits?: string[];
 };
 
 export type PartialJob = Partial<Job>;

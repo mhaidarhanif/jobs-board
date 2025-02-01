@@ -13,7 +13,7 @@ export async function getJob(id: number) {
 }
 
 // Create
-export async function createJob(jobData: Job) {
+export async function createJob(jobData: Omit<Job, "id">) {
   const response = await fetch(`${process.env.API_URL}/jobs`, {
     method: "POST",
     body: JSON.stringify(jobData),

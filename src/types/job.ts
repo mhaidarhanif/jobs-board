@@ -6,6 +6,10 @@ export type Job = {
   location: string;
 };
 
+export type PartialJob = Partial<Job>;
+
+export type OmittedJob = Omit<Job, "id">;
+
 // Notice the singular word, without "s"
 export const exampleJob: Job = {
   id: 1,

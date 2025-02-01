@@ -2,6 +2,11 @@
 
 Application to find jobs.
 
+## Application Plan
+
+- `/`: Home page with a list of jobs.
+- `/new`: Create a new job.
+
 ## Getting Started
 
 First, run the development server:

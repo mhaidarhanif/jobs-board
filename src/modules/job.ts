@@ -1,4 +1,4 @@
-import { Job } from "@/types/job";
+import { type Job } from "@/types/job";
 
 // Read all
 export async function getJobs() {

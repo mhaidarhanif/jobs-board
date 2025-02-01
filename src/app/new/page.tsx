@@ -42,7 +42,9 @@ async function addNewJob(formData: FormData) {
 
   const newJob = await createJob(jobData);
 
-  console.log({ newJob });
+  console.info({ newJob });
 
   redirect(`/`);
+  // Ideally redirect to /jobs/:id but if using a mock REST API,
+  // there will be no new data
 }

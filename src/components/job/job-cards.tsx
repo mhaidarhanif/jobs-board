@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Job } from "@/types/job";
+import { type Job } from "@/types/job";
 
 interface JobCardsProps {
   jobs: Job[];

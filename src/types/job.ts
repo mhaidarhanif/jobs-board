@@ -33,19 +33,19 @@ export const exampleJobs: Job[] = [
   {
     id: 1,
     title: "Frontend Developer",
-    company: "Bearmentor",
-    location: "Remote",
+    company: "🐾Allnimal",
+    location: "🇮🇩Indonesia",
   },
   {
     id: 2,
     title: "Backend Developer",
-    company: "Bearmentor",
-    location: "Remote",
+    company: "🐻Bearmentor",
+    location: "🇲🇾Malaysia",
   },
   {
     id: 3,
     title: "Full Stack Developer",
-    company: "Bearmentor",
-    location: "Remote",
+    company: "🐱Catamyst",
+    location: "🇸🇬Singapore",
   },
 ];
